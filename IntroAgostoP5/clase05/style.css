@@ -1,0 +1,43 @@
+h1 {
+  font-family: "Work Sans", sans-serif;
+  border-style: dotted;
+  color: red;
+}
+
+div {
+  background-color: blue;
+  width: 600px;
+  height: 200px;
+  margin: 10px auto;
+}
+
+
+@media screen and (max-width: 400px) {
+  div {
+    width: 300px;
+    background-color: red;
+    margin: 5px auto;
+  }
+  h1 {
+    font-size: medium;
+    color: black;
+  }
+  body {
+    background-color: green;
+  }
+}
+
+span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10vw;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+
+
+.texto-borde {
+  -webkit-text-stroke: 2px red;
+  color: transparent;
+}

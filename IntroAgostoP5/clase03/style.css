@@ -1,0 +1,44 @@
+/* h1 {
+    transform: translate(50px, 50px) rotate(45deg);
+} */
+
+#container{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    padding: 50px;
+    margin: 20px auto;
+    width: 650px;
+    border-radius: 5%;
+}
+
+input {
+    text-align: start;
+}
+
+body {
+    background-color: red;
+}
+
+#imagen {
+    width: 50%;
+    height: 50%;
+    margin: 20px auto;
+}
+@media screen and (max-width: 380px) {
+    body {
+      font-size: 16px;
+      background-color: yellow;
+    }
+    #container {
+        background-color: blue;
+        width: 350px;
+    }
+    #imagen {
+        margin: 20px auto;
+    }
+  }
+

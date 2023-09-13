@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Formularios</title>
+  </head>
+  <body >
+
+
+    <div id="container">
+      <form action="" method="POST" border-8 border-sky-500>
+        <label for="nombre">
+          Nombre:
+          <input id="nombre" type="text" placeholder="gerardo" required drop-shadow-2xl/>
+        </label>
+        <br />
+        <label for="password">
+          Password:
+          <input id="password" type="password" placeholder="****" />
+        </label>
+        <br />
+        <label for="email">
+          Email:
+          <input id="email" type="email" placeholder="hola@gmail.com" />
+        </label>
+
+        <input type="number" />
+        <br />
+        <label for="">
+          elegir opcion
+          <select name="clima" id="clima">
+            <option value="" selected disabled>Selecciona</option>
+            <option value="">Verano</option>
+            <option value="">Invierno</option>
+            <option value="">otoño</option>
+            <option value="">primavera</option>
+          </select>
+        </label>
+        <br>
+        <input type="file" />
+        <br />
+        <br>
+        <textarea
+          style="resize: none"
+          name="comentarios"
+          id="comentarios"
+          cols="30"
+          rows="10"
+        >
+        </textarea>
+        <br />
+
+        <div style="background-color: red; text-align: center" id="caja">
+          <label for="mes1">
+            <input type="checkbox" name="mes1" id="check" />
+            Acepta terminos y condiciones
+          </label>
+        </div>
+
+        <label for="">
+          Noviembre:
+          <input
+            type="radio"
+            id="noviembre"
+            name="noviembre"
+            value="noviembre"
+          />
+        </label>
+
+        <input type="submit" />
+      </form>
+    </div>
+
+
+    <h1>hoy vemos formularios página</h1>
+
+<div id="imagen">
+    <img src="https://pyxis.nymag.com/v1/imgs/239/74f/db885d3a9f43fd69a7e28b6c97e7a83842-88875114562-MJ-040.2x.w710.jpg" alt="">
+  </div>
+
+
+  <div class="my-custom-class">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, aperiam vero provident cum quis voluptatibus explicabo aliquam placeat, quibusdam maxime laborum incidunt assumenda. Iste minus dolor porro voluptates odio doloremque.</p>
+  </div>
+    <script src="./script.js"></script>
+
+    <p class="text-sm hover:text-base">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolorum, voluptatibus suscipit nulla dolor quo velit voluptas dicta iusto, expedita, soluta explicabo consequuntur cumque quasi veritatis! In magni necessitatibus quis!
+    </p>
+  </body>
+</html>

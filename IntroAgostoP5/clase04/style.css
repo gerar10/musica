@@ -1,0 +1,45 @@
+div {
+   height: 150px;
+   border: 4px solid red; 
+   font-size: 100px;
+}
+
+/* TIPOS DE POSICIONAMIENTO */
+/* static */
+#uno {
+    position: static;
+}
+
+/* relative  */
+#dos {
+    position: relative;
+    top: 50px;
+    left: 80px;
+    background-color: pink;
+}
+
+/* fixed */
+#tres {
+    width: 450px;
+    background-color: green;
+    position: fixed;
+    top: 75px;
+    left: 45px;
+    z-index: -2;
+}
+
+/* absolute */
+#cuatro {
+    position: relative;
+}
+
+#cinco {
+    position: absolute;
+    background-color: lightcoral;
+    bottom: 25px;
+    right: 40px;
+}
+
+p {
+    font-size: 40px;
+}

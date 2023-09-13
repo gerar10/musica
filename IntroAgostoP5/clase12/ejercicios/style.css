@@ -1,0 +1,12 @@
+/* .color {
+   background-color: blue; 
+} */
+
+body {
+    background-image: url("https://i.imgur.com/jnCXdAx.jpg");
+    height: 100vh;
+}
+
+img {
+    position: fixed;
+}

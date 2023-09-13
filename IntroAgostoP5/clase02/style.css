@@ -1,0 +1,70 @@
+body {
+    background-color:aquamarine;
+    background-image: url("https://fotografias.antena3.com/clipping/cmsimages01/2017/03/17/7EF92031-EE35-44F7-8DC2-D3EF8CE477E2/98.jpg?crop=1264,711,x0,y0&width=1900&height=1069&optimize=high&format=webply");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p {
+    color: green;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center; 
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+
+.titulos {
+    color: red;
+    font-size: 15px;
+}
+
+li {
+    color: white;
+    font-size: 25px;
+}
+
+#terminator {
+    color: yellow;
+    font-size: 25px;
+}
+
+h2 {
+    margin: 60px;
+}
+
+#contenedor {
+    background-color: pink;
+    margin: 60px auto;
+    border-radius: 5%;
+    border: 10px solid red;
+    border-radius: 40px;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+}
+
+h4:hover {
+    background-color: red;
+    /* color: pink;
+    font-size: 25px; */
+}
+
+button:active {
+    background-color: blue;
+}
+
+input:focus {
+    background-color: red;
+}
+
+#contenedor h1 {
+    background-color: green;
+}
+
+
+
+
