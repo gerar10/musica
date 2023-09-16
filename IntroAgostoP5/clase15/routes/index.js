@@ -9,6 +9,10 @@ router.get("/mensaje", function (req, res) {
     res.status(200).send("Este es el mensaje de la segunda ruta")
 })
 
+router.get("/mensaje3", function (req, res) {
+    res.status(200).send("Este es el mensaje de la segunda ruta")
+})
+
 router.get("/mensaje2", function (req, res) {
     res.status(200).send("Este es el mensaje de la segunda ruta siguiente")
 })
