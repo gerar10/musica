@@ -104,21 +104,21 @@ router.put("/muebles/editar/:id", (req, res) => {
   }
   res
     .status(200)
-    .send({ messsage: "Producto actualizado correctamente", muebleEditar });
+    .send({ message: "Producto actualizado correctamente", muebleEditar });
 });
 
 // h. Armá una ruta para disminuir el stock del producto cada vez que se compra una unidad. El stock no debe ser menor a cero, es decir no debemos permitir que haya compras si no hay stock.
 
 router.put("/muebles/modificar/stock/:id", (req, res) => {
   let modificarId = Number(req.params.id);
-  let muebleModificarStock = muebles.filter(
+  let muebleModificarStock = muebles.find(
     (mueble) => mueble.id === modificarId
   );
-  if (muebleModificarStock[0].stock > 0) {
-    muebleModificarStock[0].stock--;
+  if (muebleModificarStock.stock > 0) {
+    muebleModificarStock.stock--;
     res.status(200).send({
       message: "stock actualizado correctamente",
-      stockActual: muebleModificarStock[0].stock,
+      stockActual: muebleModificarStock.stock,
     });
   } else {
     res.status(200).send({ message: "No hay stock de este producto" });
