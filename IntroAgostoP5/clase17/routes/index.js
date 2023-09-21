@@ -37,6 +37,18 @@ router.delete("/productos/:id", async (req, res) => {
     }
 })
 
+// Actualizar un producto 
+router.put("/producto/:id", async (req, res) => {
+  try {
+    const producto = await Producto.findByIdAndUpdate(req.params.id, req.body, {
+      new: true,
+    })
+    res.status(200).send({"producto modificado": producto})
+  } catch (error) {
+    res.status(500).send("Error");
+  }
+})
+
 
 
 
