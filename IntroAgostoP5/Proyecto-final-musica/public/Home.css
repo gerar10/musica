@@ -14,7 +14,6 @@ body {
   top: 0;
   left: 0;
   overflow-y: auto;
-
 }
 
 .user-info {
@@ -66,7 +65,9 @@ h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
+  max-width: 70%px;
+  flex-wrap: wrap;
+  margin: 15px;
 }
 
 .albums img {

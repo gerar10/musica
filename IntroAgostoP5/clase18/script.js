@@ -15,6 +15,7 @@ async function getPokemon() {
     const respuesta = await axios.get(
       `https://pokeapi.co/api/v2/pokemon/${id}`
     );
+    console.log(respuesta);
     h2.textContent = respuesta.data.name;
     let urlImagen = respuesta.data.sprites.other.dream_world.front_default;
     imagen.setAttribute("src", urlImagen);
@@ -26,3 +27,5 @@ async function getPokemon() {
 boton.addEventListener("click", () => {
   getPokemon();
 });
+
+

@@ -53,13 +53,24 @@ router.post("/album/agregar", async (req, res) => {
 // Una ruta para editar un album.
 
 
+
 // Una ruta para agregar o eliminar una canción del album.
 
 
+
 // Una ruta que devuelva todos los albums.
+router.get("/album/todos", async (req, res) => {
+  try {
+    let albums = await Album.find()
+    res.status(200).send(albums)
+  } catch (error) {
+    res.status(500).send({ "error solicitar todos los albums": error });
+  }
+})
 
 
 // Una ruta que devuelva la información de un album especifíco.
+
 
 
 // Una ruta para eliminar un album.

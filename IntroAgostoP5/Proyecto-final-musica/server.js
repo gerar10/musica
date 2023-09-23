@@ -1,16 +1,17 @@
-const express = require('express')
-const app = express()
+const express = require("express");
+const app = express();
 const path = require("path");
 const mongoose = require("mongoose");
 const url =
   "mongodb+srv://gerarburgos1987:valinhos2023@cluster0.kttc6we.mongodb.net/?retryWrites=true&w=majority";
 
-const routes = require("./routes/index")
+const routes = require("./routes/index");
 
 app.use(express.json());
+
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use("/", routes)
+app.use("/", routes);
 
 const connectMongo = async () => {
   try {
@@ -25,4 +26,4 @@ const connectMongo = async () => {
   }
 };
 
-connectMongo()
+connectMongo();

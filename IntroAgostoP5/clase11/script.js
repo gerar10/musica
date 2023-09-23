@@ -1,4 +1,4 @@
-console.log("Hola mundo");
+// console.log("Hola mundo");
 
 //  OBJETOS ( TIPO DE DATO)
 
@@ -266,3 +266,36 @@ console.log("Hola mundo");
 // AGREGAR AL HTML -
 // div.appendChild(h2); // PRIMERO EL PADRE Y DESPUES SE LE INDICA EL HIJO
 // document.body.appendChild(div); // SE AGREGA AL HTML
+
+
+
+let arreglo = [1,2,3, "casa", "ventana", {nombre: "Juan"}]
+
+
+
+
+let opcion = "vacaciones"
+
+let objeto = {
+    nombre: "Carlos",
+    apellido: "Gonzalez",
+    edad: 24,
+    direccion: "direcciones",
+    saludo: () => {
+        console.log("Hola");
+    }
+}
+
+objeto.trabajo = "Developer"
+objeto["experiencia"] = 2
+
+let direcciones = {
+    trabajo: "Juan b justo 245",
+    casa: "Rivadavia 500",
+    vacaciones: "san martin 321"
+}
+
+for (const key in direcciones) {
+    
+}
+
