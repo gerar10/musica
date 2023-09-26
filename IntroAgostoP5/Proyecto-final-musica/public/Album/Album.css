@@ -97,3 +97,11 @@ h2 {
   margin-right: 20px;
   cursor: pointer;
 }
+
+#editAlbum{ 
+  cursor: pointer;
+}
+
+#addSongs{
+  cursor: pointer;
+}

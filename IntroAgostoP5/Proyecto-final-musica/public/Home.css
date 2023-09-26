@@ -70,6 +70,15 @@ h2 {
   margin: 15px;
 }
 
+.albums-individual {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 70%px;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
 .albums img {
   width: 300px;
   height: 300px;
@@ -81,9 +90,17 @@ h2 {
   position: relative;
   top: -280px;
   right: 50px;
-  font-size: 24px; 
-  color: blue; 
-  background-color: white; 
-  border-radius: 50%; 
-  padding: 4px; 
+  font-size: 24px;
+  color: blue;
+  background-color: white;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.trash {
+  color: white;
+  position: relative;
+  top: 145px;
+  right: 35px;
+  font-size: 24px;
 }

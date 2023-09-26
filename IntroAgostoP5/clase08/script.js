@@ -14,7 +14,7 @@ console.log("Hola Mundo");
 //     contarNumeros -= 2
 // }
 
-// SINTAXIS 
+// SINTAXIS
 // ++  => te suma una unidad
 // -- => te resta una unidad
 // += => te suma la cantidad indicada
@@ -95,8 +95,6 @@ console.log("Hola Mundo");
 // getAttribute("src") - obtener el valor de un atributo
 // setAttribute("src", "valor") - cambiamos el atributo
 
-
-
 // EJERCICIOS NIVEL 1
 
 // ESCRIBI WHILE LOOPS
@@ -118,10 +116,9 @@ console.log("Hola Mundo");
 //     cliente ++
 // }
 
+// EJERCICIOS NIVEL 2
 
-// EJERCICIOS NIVEL 2 
-
-// PAR O IMPAR 
+// PAR O IMPAR
 // let respuestaUsuario = parseInt(prompt("elegi un numero"))
 
 // while (respuestaUsuario > 0) {
@@ -135,8 +132,7 @@ console.log("Hola Mundo");
 
 // alert("se termino el while")
 
-
-// CONTADOR DE POSITIVOS 
+// CONTADOR DE POSITIVOS
 // let respuestaUsuario = parseInt(prompt("ingresar un numero"));
 
 // let numerosPositivos = 0;
@@ -148,7 +144,6 @@ console.log("Hola Mundo");
 
 // alert(`la cantidad de numeros positivos fueron ${numerosPositivos}`)
 
-
 // BURRO-MATICO
 // let respuestaUsuario = prompt("ya merito llegamos").toLowerCase()
 
@@ -158,3 +153,21 @@ console.log("Hola Mundo");
 
 // alert("bienvenido a muy muy lejano")
 
+// let nombreSw;
+
+// async function solicitarNombre() {
+//   try {
+//     nombreSw = await swal("¿Como te llamas?", {
+//       content: "input",
+//     });
+//     while (nombreSw.length <= 3) {
+//       nombreSw = await swal("Ingresa un nombre valido", {
+//         content: "input",
+//       });
+//     }
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
+
+// solicitarNombre();
